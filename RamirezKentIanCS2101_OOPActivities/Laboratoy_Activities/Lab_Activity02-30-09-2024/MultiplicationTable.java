@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class MultiplicationTable {
-    public static void multiplicationTable(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the size of the multiplication table: ");
         int size = scanner.nextInt();
